@@ -1,0 +1,6 @@
+package com.example.apisign
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
