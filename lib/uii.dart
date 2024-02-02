@@ -1,7 +1,8 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'clss/comm.dart';
+
+import 'model/comm.dart';
 
 class Api extends StatefulWidget {
   const Api({super.key});
