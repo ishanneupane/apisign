@@ -18,7 +18,7 @@ class _ApiState extends State<Api> {
     const url = 'https://testing.esnep.com/eliterestro/api/acc/pub/slider';
 
     final response = await http.get(Uri.parse(url),
-        headers: headers); //header le chaine linxa
+        headers: headers); //header le chaine linxa//header le chaine linxa
     print(jsonDecode(response.body));
     if (response.statusCode == 200) {
       final jsonData = jsonDecode(response.body);
